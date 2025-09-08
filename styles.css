@@ -195,3 +195,11 @@ nav a:active {
 .contact-form button:hover {
   background-color: #334d88;
 }
+.site-logo {
+  height: 40px;
+  width: auto;
+}
+.site-logo {
+  height: 55px;  /* A balanced size */
+  width: auto;
+}
