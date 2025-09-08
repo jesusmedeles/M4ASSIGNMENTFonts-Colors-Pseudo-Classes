@@ -138,3 +138,60 @@ nav a:active {
   height: 60px; /* Adjust as needed */
   width: auto;
 }
+.site-logo {
+  height: 40px; /* Try 40px instead of 60px */
+  width: auto;
+}
+/* Header container */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo size */
+.site-logo {
+  height: 40px;
+  width: auto;
+}
+
+/* Contact page layout */
+.contact-main {
+  max-width: 600px;
+  margin: 60px auto;
+  text-align: center;
+  font-size: 1.2em;
+  color: #333;
+  padding: 0 20px;
+}
+
+/* Contact form styling */
+.contact-form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.contact-form button {
+  padding: 12px;
+  font-size: 1em;
+  background-color: #4466aa;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #334d88;
+}
