@@ -60,3 +60,69 @@ footer {
   padding: 20px 40px;
   border-radius: 8px;
 }
+
+/* Hero Section */
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  filter: brightness(70%);
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px 40px;
+  border-radius: 8px;
+}
+/* Fonts and Colors */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #333;
+  line-height: 1.6;
+  background-color: #fdfdfd;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  color: #2e8b57;
+}
+
+/* Navigation Links with Pseudo-classes */
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-weight: bold;
+}
+
+nav a:link {
+  color: #ffffff;
+}
+
+nav a:visited {
+  color: #d3d3d3;
+}
+
+nav a:hover {
+  color: #ffd700;
+  text-decoration: underline;
+}
+
+nav a:active {
+  color: #ff4500;
+}
