@@ -126,3 +126,15 @@ nav a:hover {
 nav a:active {
   color: #ff4500;
 }
+/* Header container layout */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo styling */
+.site-logo {
+  height: 60px; /* Adjust as needed */
+  width: auto;
+}
