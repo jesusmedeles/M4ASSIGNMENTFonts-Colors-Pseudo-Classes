@@ -224,3 +224,11 @@ nav a:hover {
 nav a:active {
   color: #ffcc00;        /* color when link is clicked */
 }
+.site-logo {
+  height: 40px;
+  width: auto;
+}
+.site-logo {
+  height: 80px;  /* Doubled from 40px */
+  width: auto;
+}
