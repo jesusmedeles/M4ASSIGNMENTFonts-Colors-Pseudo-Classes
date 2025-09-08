@@ -232,3 +232,9 @@ nav a:active {
   height: 80px;  /* Doubled from 40px */
   width: auto;
 }
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
