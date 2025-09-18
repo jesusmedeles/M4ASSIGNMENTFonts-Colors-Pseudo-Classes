@@ -238,3 +238,67 @@ nav a:active {
   align-items: center;
   padding: 20px;
 }
+
+/* Extra content styles (table, list, iframe, JS button) */
+.extras {
+  background-color: #f5f5f5;
+  padding: 3em 2em;
+  margin-top: 3em;
+  border-top: 2px solid #2e8b57;
+}
+
+.extras h2 {
+  color: #2e8b57;
+  margin-top: 30px;
+  font-family: 'Playfair Display', serif;
+}
+
+.extras ul {
+  list-style-type: square;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+.extras ul li {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+.extras table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+  background-color: white;
+}
+
+.extras th, .extras td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: left;
+}
+
+.extras th {
+  background-color: #e0ffe0;
+  color: #2e8b57;
+}
+
+.extras iframe {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+}
+
+.extras button {
+  padding: 10px 20px;
+  background-color: #2e8b57;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.extras button:hover {
+  background-color: #1e5f3e;
+}
