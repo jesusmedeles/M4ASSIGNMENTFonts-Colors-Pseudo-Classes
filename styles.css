@@ -326,3 +326,20 @@ nav a:active {
   margin-bottom: 0.5em;
   color: #444;
 }
+.nutrition-videos {
+  padding: 2em;
+  background-color: #f0fff0;
+  border-top: 2px solid #2e8b57;
+}
+
+.nutrition-videos h2,
+.nutrition-videos h3 {
+  color: #2e8b57;
+  text-align: center;
+}
+
+.video-wrapper {
+  margin: 20px auto;
+  max-width: 640px;
+  text-align: center;
+}
